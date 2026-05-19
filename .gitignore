@@ -1,7 +1,7 @@
 venv/
 __pycache__/
 *.pyc
-smat.db
+ecopulse.db
 .pytest_cache/
 no sé.txt
 
@@ -17,11 +17,11 @@ backend/.env
 backend/*.db
 backend/*.sqlite3
 # --- FLUTTER / MOBILE ---
-mobile/.dart_tool/
-mobile/.flutter-plugins
-mobile/.flutter-plugins-dependencies
-mobile/.pub-cache/
-mobile/.pub/
-mobile/build/
+mobile/src/.dart_tool/
+mobile/src/.flutter-plugins
+mobile/src/.flutter-plugins-dependencies
+mobile/src/.pub-cache/
+mobile/src/.pub/
+mobile/src/build/
 mobile/android/local.properties
 mobile/ios/Flutter/Generated.xcconfig
