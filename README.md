@@ -1,6 +1,7 @@
 # ECOPULSE
 
 Sistema de Monitoreo de Emisiones y Calidad del Aire Urbano-Industrial
+
 ---
 
 # Levantar el Backend
@@ -29,19 +30,13 @@ source .venv/bin/activate
 pip install fastapi uvicorn sqlalchemy pydantic python-jose[cryptography] passlib[bcrypt] python-multipart
 ```
 
-## 3. Ubicarse en la carpeta del backend
+## 3. Ejecutar el servidor
 
 ```bash
-cd backend/app
+uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-## 4. Ejecutar el servidor
-
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-```
-
-## 5. Verificar funcionamiento
+## 4. Verificar funcionamiento
 
 Abrir en el navegador:
 
@@ -94,7 +89,7 @@ pip install paho-mqtt requests
 ## 2. Ubicarse en la carpeta de dispositivos IoT
 
 ```bash
-cd iot_device
+cd iot_industrial
 ```
 
 ## 3. Ejecutar el Bridge MQTT
