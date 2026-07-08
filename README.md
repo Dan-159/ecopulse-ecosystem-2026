@@ -73,7 +73,7 @@ flutter run
 También puede ejecutarse desde Visual Studio Code presionando:
 
 ```text
- F5
+F5
 ```
 
 ---
