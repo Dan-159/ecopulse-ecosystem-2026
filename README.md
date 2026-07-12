@@ -114,6 +114,10 @@ Si todo está correctamente configurado, se observarán mensajes MQTT en la cons
 
 ---
 
+## 6. Ejecutar la simulacion en Godot
+
+Correr el archivo simulacion.exe dentro de la carpeta simualcionexportada
+
 # Arquitectura del Sistema
 
 ```text
