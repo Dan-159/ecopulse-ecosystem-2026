@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://bjgbtgbnol62q"]
+
+[ext_resource type="Script" uid="uid://51qwvxr6ylcq" path="res://scenes/antena/antena.gd" id="1_jmak1"]
+[ext_resource type="Texture2D" uid="uid://3ft4j0dfl8jr" path="res://assets/antena/antena.png" id="1_jqr6i"]
+[ext_resource type="PackedScene" uid="uid://ktm7k0co2o7l" path="res://addons/mqtt/mqtt.tscn" id="2_5w0ct"]
+[ext_resource type="Texture2D" uid="uid://ch04mpudedws2" path="res://assets/humo/smoke4.png" id="3_athyq"]
+
+[node name="antena" type="Node2D" unique_id=1111424593]
+script = ExtResource("1_jmak1")
+
+[node name="MQTT" parent="." unique_id=592778093 instance=ExtResource("2_5w0ct")]
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="." unique_id=799050265]
+amount = 30
+texture = ExtResource("3_athyq")
+lifetime = 3.0
+spread = 180.0
+gravity = Vector2(0, -20)
+initial_velocity_min = 20.0
+initial_velocity_max = 20.0
+scale_amount_min = 0.2
+scale_amount_max = 0.2
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1329372528]
+position = Vector2(0, -7.6293945e-06)
+scale = Vector2(0.1, 0.097)
+texture = ExtResource("1_jqr6i")
+
+[node name="Label" type="Label" parent="." unique_id=786759966]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -35.0
+offset_top = 46.0
+offset_right = 38.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1

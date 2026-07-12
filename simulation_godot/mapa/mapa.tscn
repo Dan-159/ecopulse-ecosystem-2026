@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://c73jj1me6viwb"]
+
+[ext_resource type="Texture2D" uid="uid://cyk4ap6cq025i" path="res://assets/lima/Lima_Metropolitana_Distritos_Nombrados_(Leyenda).png" id="1_70f7c"]
+[ext_resource type="Script" uid="uid://c4sj3xutbxqun" path="res://camera_2d.gd" id="2_q8ihy"]
+[ext_resource type="PackedScene" uid="uid://bjgbtgbnol62q" path="res://scenes/antena/antena.tscn" id="3_q8ihy"]
+[ext_resource type="PackedScene" uid="uid://kdrnt6sb02ri" path="res://scenes/antena/antena1.tscn" id="4_5d3jg"]
+[ext_resource type="PackedScene" uid="uid://do6ui3au56t6q" path="res://scenes/antena/antena2.tscn" id="5_wan0n"]
+
+[node name="mapa" type="Node2D" unique_id=896807903]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=398250214]
+texture = ExtResource("1_70f7c")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1355853676]
+script = ExtResource("2_q8ihy")
+
+[node name="antena" parent="." unique_id=1111424593 instance=ExtResource("3_q8ihy")]
+position = Vector2(-335, 76)
+
+[node name="antena1" parent="." unique_id=1601668533 instance=ExtResource("4_5d3jg")]
+position = Vector2(99, 161)
+
+[node name="antena2" parent="." unique_id=1160573451 instance=ExtResource("5_wan0n")]
+position = Vector2(-172, -239)
