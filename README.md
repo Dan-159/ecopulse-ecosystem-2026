@@ -1,7 +1,12 @@
-# ECOPULSE
+# Grupo 5: ECOPULSE
 
 Sistema de Monitoreo de Emisiones y Calidad del Aire Urbano-Industrial
 
+Integrantes:
+- Barrios Cabrera Daniel Emiliano (Desarrollador Backend)
+- Flores Quiliche Renzo (Desarrollador Frontend)
+- Abarca Guerrero Lao Eduardo (Desarrollador IoT)
+- Apari Malpartida Juan Miguel (Desarrollador Godot)
 ---
 
 # Levantar el Backend
