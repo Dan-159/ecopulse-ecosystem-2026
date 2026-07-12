@@ -76,6 +76,11 @@ También puede ejecutarse desde Visual Studio Code presionando:
 F5
 ```
 
+Credenciales de acceso para administrador:
+
+Uuario: admin_fisi
+Contraseña: ecopulse2026
+
 ---
 
 # Levantar los Sensores Simulados
