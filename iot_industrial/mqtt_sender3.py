@@ -2,8 +2,8 @@ import paho.mqtt.client as mqtt
 import json
 import time
 import random
-# Simulación de un sensor de la zona 1, 
-# publicando datos cada 10 segundos en el tópico "fisi/ecopulse/zona/1"
+# Simulación de un sensor de la zona 3, 
+# publicando datos cada 10 segundos en el tópico "fisi/ecopulse/zona/3"
 BROKER = "broker.hivemq.com" # Broker público para pruebas
 PORT = 1883
 ID_ZONA = 3
